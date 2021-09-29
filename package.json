@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "requirejs": "^2.3.6"
+  },
+  "name": "pokedex",
+  "description": "",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Francisco-Cavasan/pokedex.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Francisco-Cavasan/pokedex.js/issues"
+  },
+  "homepage": "https://github.com/Francisco-Cavasan/pokedex.js#readme"
+}
