@@ -13,8 +13,10 @@ body {
 }
 
 body {
+  background-color: rgb(157, 93, 218);
   font-family: "Krub", sans-serif;
 }
+
 #search{
     display: flex;
     justify-content: center;
@@ -25,45 +27,54 @@ body {
     margin-top: 10px;
 }
 
+button{
+    background-color: #f0a315;
+    border-radius: 20px;
+    width: 5%;
+    border: 0;
+}
+
+input{
+  background-color: #ecd09b;
+  border: 0;
+  border-radius: 10px;
+}
 #card-container{
     position: relative;
     display: flex;
     width: 100%;
     height: 100%;
-    gap: 30px;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 label{
     color:aquamarine;
+    font-size: 20px;
 }
 .card {
-  margin: auto;
   width: 230px;
-  height: 400px;
+  height: 350px;
   border-radius: 10px;
   box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
   background: #151515;
   overflow: hidden;
+  margin-left: 10px;
+  margin-bottom: 5%;
 }
 .ds-top {
   margin: auto;
   width: 300px;
-  height: 80px;
+  height: 50px;
   background: crimson;
-  animation: dsTop 1.5s;
 }
 .avatar-holder {
   margin: auto;
-  top: 40px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  box-shadow: 0 0 0 5px #151515, inset 0 0 0 5px #000000,
-    inset 0 0 0 5px #000000, inset 0 0 0 5px #000000, inset 0 0 0 5px #000000;
-  background: white;
+ background: white;
   overflow: hidden;
-  animation: mvTop 1.5s;
 }
 .avatar-holder img {
   width: 100%;
@@ -118,27 +129,6 @@ label{
   background: crimson;
 }
 
-.pens,
-.projects,
-.posts {
-  left: -300px;
-  width: calc(250px / 3);
-  text-align: center;
-  color: white;
-  animation: fadeInMove 2s;
-  animation-fill-mode: forwards;
-}
-.pens,
-.projects,
-.posts h6 {
-  text-transform: uppercase;
-
-}
-.pens,
-.projects,
-.posts p {
-  font-size: 12px;
-}
 .ds-skill {
   margin: auto;
   bottom: 10px;
@@ -147,17 +137,21 @@ label{
 }
 
 .ds-skill h6 {
+  font-size: 15px;
+  text-align: center;
   margin-bottom: 5px;
   font-weight: 700;
   text-transform: uppercase;
   color: crimson;
 }
 .skill h6 {
+  text-align: left;
   font-weight: 400;
-  font-size: 8px;
+  font-size: 13px;
   letter-spacing: 0.05em;
   margin: 4px 0;
-  color: white;
+  color:rgb(0, 160, 253);
+  text-decoration: underline;
 }
 .fab {
   color: crimson;

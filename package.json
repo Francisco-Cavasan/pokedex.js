@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.4",
     "browserify": "^17.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13",
     "pokeapi-js-wrapper": "^1.2.0",
     "pokedex-promise-v2": "^3.3.2"
   }

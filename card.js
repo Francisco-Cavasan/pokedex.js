@@ -5,10 +5,10 @@ function createCard(name,link,health,attack,defense){
   <img src="${link}" alt="">
 </div>
 <div class="name">
-  <a href="${link}" target="_blank">${name}</a>
+  <a href="" target="_blank">${name}</a>
 </div>
 <div class="ds-skill">
-  <h6>Skills <i class="fa fa-code" aria-hidden="true"></i></h6>
+  <h6>Stats <i class="fa fa-code" aria-hidden="true"></i></h6>
   <div class="skill html">
     <h6><i class="fab fa-html5"></i>Health</h6>
     <div class="bar bar-health">
